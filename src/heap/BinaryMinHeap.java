@@ -84,14 +84,14 @@ public class BinaryMinHeap<T> {
     
 	public static void main(String[] args) {
 		BinaryMinHeap<String> heap = new BinaryMinHeap<String>();
-        heap.add(3, "Tushar");
+        heap.add(3, "Abhishek");
         heap.add(4, "Ani");
-        heap.add(8, "Vijay");
-        heap.add(10, "Pramila");
-        heap.add(5, "Roy");
+        heap.add(8, "winner");
+        heap.add(10, "gucci");
+        heap.add(5, "gang");
         heap.add(6, "NTF");
         heap.add(2,"AFR");
-        heap.decrease("Pramila", 1);
+        heap.decrease("kurr", 1);
         heap.printHeap();
 	}
 	
